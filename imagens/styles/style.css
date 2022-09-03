@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+:root {
+  --bg-color-principal-01: white;
+  --bg-color-principal-02: rgb(180, 180, 180);
+  --bg-color-smartphones: white;
+  --color-shadow-main: rgba(0, 0, 0, 0.200);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body,
+html {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(to bottom, var(--bg-color-principal-01), var(--bg-color-principal-02));
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+section#login {
+  width: 250px;
+  height: 500px;
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  border-radius: 10px;
+  background-color: var(--bg-color-principal-01);
+  box-shadow: 5px 5px 20px 5px var(--color-shadow-main);
+}
+
+div#form {
+  height: 100px;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+div#form input {
+  display: block;
+  background-color: rgb(233, 233, 233);
+  padding: 10px;
+  width: 100%;
+}
+
+div#form #enviar {
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+div#form #enviar:hover {
+  cursor: pointer;
+  color: white;
+  background-color: black;
+}
+
+
+div#imagem {
+  border-radius: 10px 10px 0 0;
+  height: 200px;
+  background-image: url(../login.jpg);
+  filter: grayscale();
+  background-size: cover;
+}
