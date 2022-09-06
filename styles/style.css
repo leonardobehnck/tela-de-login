@@ -25,15 +25,17 @@ html {
 main {
   width: 100vw;
   height: 100vh;
-  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 section#login {
   width: 250px;
   height: 500px;
-  position: absolute;
-  top: 25%;
-  left: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 10px;
   background-color: var(--bg-color-principal-01);
   box-shadow: 5px 5px 20px 5px var(--color-shadow-main);
