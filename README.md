@@ -1,4 +1,4 @@
-#  Tela de Login
+#  Tela de Login com Media Queries
 
 ![](https://img.shields.io/github/license/leonardobehnck/advinhacao)
 ![](https://img.shields.io/github/stars/leonardobehnck/advinhacao)
