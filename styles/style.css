@@ -3,7 +3,7 @@
 :root {
   --bg-color-principal-01: white;
   --bg-color-principal-02: rgb(180, 180, 180);
-  --bg-color-smartphones: white;
+  --bg-color-smartphones: rgb(180, 180, 180);
   --color-shadow-main: rgba(0, 0, 0, 0.200);
 }
 
@@ -19,7 +19,7 @@ body,
 html {
   width: 100vw;
   height: 100vh;
-  background: linear-gradient(to bottom, var(--bg-color-principal-01), var(--bg-color-principal-02));
+  background: var(--bg-color-smartphones);
 }
 
 main {
@@ -33,9 +33,7 @@ main {
 section#login {
   width: 250px;
   height: 500px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  overflow: hidden;
   border-radius: 10px;
   background-color: var(--bg-color-principal-01);
   box-shadow: 5px 5px 20px 5px var(--color-shadow-main);
@@ -67,9 +65,8 @@ div#form #enviar:hover {
 
 
 div#imagem {
-  border-radius: 10px 10px 0 0;
   height: 200px;
-  background-image: url(../login.jpg);
+  background-image: url('../imagens/login.jpg');
   filter: grayscale();
   background-size: cover;
 }

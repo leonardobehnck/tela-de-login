@@ -6,13 +6,42 @@
 1200px for large devices. */
 @import url(style.css);
 
-@media screen and (max-width: 576px) {
+@media screen and (min-width: 576px) {
 
   body,
   html {
     width: 100vw;
     height: 100vh;
-    background: var(--bg-color-principal-02);
+    background: linear-gradient(to bottom, var(--bg-color-principal-01), var(--bg-color-principal-02));
   }
 
+  section#login {
+    width: 500px;
+  }
+
+  div#form {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+
+  body,
+  html {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to bottom, var(--bg-color-principal-01), var(--bg-color-principal-02));
+  }
+
+  section#login {
+    width: 768px;
+  }
+
+  div#form {
+    display: flex;
+    flex-direction: column;
+    width: 768px;
+  }
 }
