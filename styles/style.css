@@ -37,6 +37,7 @@ section#login {
   border-radius: 10px;
   background-color: var(--bg-color-principal-01);
   box-shadow: 5px 5px 20px 5px var(--color-shadow-main);
+  transition: width 0.2s, height 0.2s;
 }
 
 div#form {

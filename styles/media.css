@@ -37,16 +37,31 @@
 
   section#login {
     width: 90vw;
-    float: left;
   }
 
   div#form {
-    float: width; 
+    float: right;
+    width: 70%;
 }
   div#imagem {
     float: left;
     width: 30%;
     height: 100%; 
+  }
+}
 
+@media screen and (min-width: 992px) {
+  section#login {
+    width: 992px;
+  }
+
+  div#form {
+    float: right;
+    width: 50%;
+}
+  div#imagem {
+    float: left;
+    width: 50%;
+    height: 100%; 
   }
 }
