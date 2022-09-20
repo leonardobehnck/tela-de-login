@@ -38,6 +38,7 @@ section#login {
   background-color: var(--bg-color-principal-01);
   box-shadow: 5px 5px 20px 5px var(--color-shadow-main);
   transition: width 0.2s, height 0.2s;
+  transition-timing-function: ease;
 }
 
 div#form {
@@ -64,7 +65,6 @@ div#form #enviar:hover {
   color: white;
   background-color: black;
 }
-
 
 div#imagem {
   height: 200px;
