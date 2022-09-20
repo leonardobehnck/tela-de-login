@@ -26,7 +26,7 @@
   }
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 768px) and (max-width: 992px) {
 
   body,
   html {
@@ -36,12 +36,17 @@
   }
 
   section#login {
-    width: 768px;
+    width: 90vw;
+    float: left;
   }
 
   div#form {
-    display: flex;
-    flex-direction: column;
-    width: 768px;
+    float: width; 
+}
+  div#imagem {
+    float: left;
+    width: 30%;
+    height: 100%; 
+
   }
 }
