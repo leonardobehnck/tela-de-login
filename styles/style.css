@@ -63,6 +63,10 @@ div#form input {
   width: 100%;
 }
 
+div#form input:focus-within {
+  background-color: var(--bg-color-principal-01);
+}
+
 div#form #enviar {
   cursor: pointer;
   margin-top: 20px;
