@@ -32,7 +32,7 @@ main {
 
 section#login {
   width: 250px;
-  height: 500px;
+  height: 555px;
   overflow: hidden;
   border-radius: 10px;
   background-color: var(--bg-color-principal-01);
@@ -42,7 +42,6 @@ section#login {
 }
 
 div#form {
-  height: 100px;
   padding: 15px;
   border-radius: 10px;
   display: block;
@@ -57,10 +56,6 @@ div#form > p {
   font-size: 0.8em;
 }
 
-div#form > a {
-  color: black;
-}
-
 div#form input {
   display: block;
   background-color: rgb(233, 233, 233);
@@ -71,6 +66,7 @@ div#form input {
 div#form #enviar {
   cursor: pointer;
   margin-top: 20px;
+  font-size: 1.1em;
 }
 
 div#form #enviar:hover {
@@ -85,4 +81,20 @@ div#imagem {
   filter: grayscale();
   background-size: cover;
   display: block;
+}
+
+div#form a.botao {
+  color: black;
+  display: block;
+  background-color: rgb(233, 233, 233);
+  margin-top: 20px;
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+div#form a.botao:hover {
+  cursor: pointer;
+  color: white;
+  background-color: black;
 }
