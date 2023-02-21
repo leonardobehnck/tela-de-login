@@ -21,19 +21,20 @@
       <div id="form">
         <h1>Login</h1>
         <p>Seja bem-vindo(a) novamente.</p>
-        <form action="post">
+        <form action="post" autocomplete="o">
           <label for="user">
             <span class="material-symbols-outlined">
               person
             </span>
             Usuário:</label>
-          <input type="text" name="user" id="user">
+          <input type="text" name="user" id="user" autocomplete="username" required>
           <label for="password">
             <span class="material-symbols-outlined">key</span>
             Senha:
           </label>
-          <input type="password" name="senha" id="password">
+          <input type="password" name="senha" id="password" autocomplete="current-password" required>
           <input type="submit" value="Enviar" id="enviar">
+          <a href="#">Esqueci a senha<span class="material-symbols-outlined">mail</span>          </span></a>
         </form>
       </div>
     </section>
